@@ -1,5 +1,29 @@
 ![Device Changelog](https://github.com/Evolution-X/manifest/raw/tiramisu/EvoBanner.png)
 
+## v7.6.2 Veux/Peux
+```
+veux: Audio Policy: Set valid and supported channel mask for earpiece 
+veux: Audio Policy: Drop Max Open Count & Max Active Count 
+veux: Audio Policy: Remove FM Tuner from audio input devices 
+veux: Remove some useless doze overlays 
+veux: Enable Wide Color Gamut support 
+veux: overlay: Tune vibration pattern 
+veux: Remove non-existing packages 
+veux: overlay: Fix fingerprint wake-up animation 
+veux: overlay: Only allow 5G SA on Jio 
+veux: Set ro.product.mod_device 
+veux: Update aperture video res and fps config 
+veux: Replace writepid with task_profiles command for cgroup migration 
+veux: Migrate to AIDL ClearKey DRM HAL 
+veux: props: Remove unused persist.bluetooth.a2dp_offload.cap property 
+veux: Drop config_setColorTransformAccelerated 
+veux: Add Aperture to config_cameraAuxPackageAllowList 
+veux: sepolicy: Move vendor property context to vendor folder 
+veux: sepolicy: Fix fingerprint labels 
+veux: props: Fix display animation while AOD on/off screen 
+veux: Don't show saturated color mode on settings 
+```
+
 ## v7.5 Veux/Peux
 ```
 veux: Use dex2oat64
